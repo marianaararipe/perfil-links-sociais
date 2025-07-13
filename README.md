@@ -1,9 +1,8 @@
-# Frontend Mentor - Social Links Profile Solution
+# Frontend Mentor - Perfil de Links Sociais
 
 Este é um projeto baseado no desafio [Social Links Profile](https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ) do Frontend Mentor. O objetivo é criar um cartão de perfil com links para redes sociais, utilizando HTML e CSS de forma responsiva e acessível.
 
 ---
-
 
 ## 🛠️ Tecnologias Utilizadas
 
