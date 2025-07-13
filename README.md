@@ -29,9 +29,9 @@ Praticar a construção de componentes visuais a partir de um design estático, 
 
 ## 🔗 Links
 
-- [🔗 Visualizar Projeto](https://seu-usuario.github.io/social-links-profile/)
-- [📂 Código no GitHub](https://github.com/seu-usuario/social-links-profile)
-- [📂 Repositório no Frontend Mentor](https://www.frontendmentor.io/solutions/social-links-profile-com-html-e-css-SUA-SOLUTION-ID)
+- [🔗 Visualizar Projeto](https://marianaararipe.github.io/perfil-links-sociais/)
+- [📂 Código no GitHub](https://github.com/marianaararipe/perfil-links-sociais)
+- [📂 Repositório no Frontend Mentor](https://www.frontendmentor.io/solutions/perfil-links-social-media-htmlcss-IjunAQ1jLM)
 
 ---
 
