@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+  --green: hsl(75, 94%, 57%);
+  --white: hsl(0, 0%, 100%);
+  --grey-700: hsl(0, 0%, 20%);
+  --grey-800: hsl(0, 0%, 12%);
+  --grey-900: hsl(0, 0%, 8%);
+
+  --bold-weight: 700;
+  --normal-weight: 600;
+  --lighter-weight: 400;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--grey-900);
+  font-family: "Inter", sans-serif;
+  color: var(--white);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.container {
+  background-color: var(--grey-800);
+  width: 400px;
+  border-radius: 15px;
+  padding: 40px 45px;
+  text-align: center;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.7);
+}
+
+.userpic {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin: 0 auto 20px;
+}
+
+.content h1 {
+  font-weight: var(--normal-weight);
+  font-size: 27px;
+  margin-bottom: 8px;
+  color: var(--white);
+}
+.location {
+  font-weight: var(--bold-weight);
+  font-size: 14px;
+  color: var(--green);
+  margin-bottom: 30px;
+}
+.description {
+  font-weight: var(--lighter-weight);
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.links a {
+  text-decoration: none;
+  background-color: var(--grey-700);
+  border-radius: 8px;
+  color: var(--white);
+  font-weight: var(--normal-weight);
+  font-size: 16px;
+  padding: 12px 0;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.4);
+  transition: background-color 0.3s ease;
+}
+.links a:hover,
+.links a:focus {
+  background-color: var(--green);
+  color: var(--grey-900);
+  outline: none;
+  box-shadow: 0 0 10px var(--green);
+}
+
+.attribution {
+  margin-top: 10px;
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: var(--green);
+  text-decoration: none;
+}
+.attribution a:hover,
+.attribution a:focus {
+  text-decoration: underline;
+}
